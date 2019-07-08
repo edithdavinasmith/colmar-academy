@@ -6,6 +6,7 @@
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
     <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+    <meta name=”viewport” content="width=device-width, initial-scale=1">
   </head>
   <body>
 <!--HEADER-->
@@ -13,6 +14,15 @@
       <div class="logo">
         <img src="./resources/images/ic-logo.svg" alt="logo">
         <span id="colmar">COLMAR</span><span>ACADEMY</span>
+      </div>
+      <div class="logo2">
+        <img src="./resources/images/ic-on-campus.svg" alt="logo">
+      </div>
+      <div class="logo3">
+        <img src="./resources/images/ic-online.svg" alt="logo">
+      </div>
+      <div class="logo4">
+        <img src="./resources/images/ic-login.svg" alt="logo">
       </div>
       <nav>
         <ul role="presentation">
@@ -27,9 +37,9 @@
     <div class="learn">
       <img src="./resources/images/banner.jpg" alt="three people reading and writing">
       <div class="learn-text">
-        <h1>Learn something<br>new everyday</h1>
+        <h1>Learn<br>something<br>new <span id="learn">everyday</span></h1>
         <h4>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</h4>
-        <button type="button">Start here</button>
+        <button type="button">START HERE</button>
       </div>
     </div>
 <!--PRACTICING-->
@@ -81,15 +91,15 @@
           </div>
         </div>
         <div class="computer">
-          <img src="./resources/images/course-computer-art.jpg" alt="computer screens">
+          <img src="./resources/images/course-computer-art.jpg" alt="hand with smartphone">
           <div class="row-image-text">
             <h4>Computer art</h4>
             <p>COURSES</p>
-            <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+            <p>Imaging & Design, Web Design, <br>Motion Graphics & Visual Effects, <br>Computer Animation</p>
           </div>
         </div>
         <div class="design">
-          <img src="./resources/images/course-design.jpg" alt="computer screens">
+          <img src="./resources/images/course-design.jpg" alt="analog camera">
           <div class="row-image-text">
             <h4>Design</h4>
             <p>COURSES</p>
@@ -99,7 +109,7 @@
       </div>
       <div class="row-two">
         <div class="data">
-          <img src="./resources/images/course-data.jpg" alt="computer screens">
+          <img src="./resources/images/course-data.jpg" alt="computer">
           <div class="row-image-text">
             <h4>Data</h4>
             <p>COURSES</p>
@@ -107,7 +117,7 @@
           </div>
         </div>
         <div class="business">
-          <img src="./resources/images/course-business.jpg" alt="computer screens">
+          <img src="./resources/images/course-business.jpg" alt="chess board">
           <div class="row-image-text">
             <h4>Business</h4>
             <p>COURSES</p>
@@ -115,7 +125,7 @@
           </div>
         </div>
         <div class="marketing">
-          <img src="./resources/images/course-marketing.jpg" alt="computer screens">
+          <img src="./resources/images/course-marketing.jpg" alt="smart watch">
           <div class="row-image-text">
             <h4>Marketing</h4>
             <p>COURSES</p>
@@ -125,31 +135,35 @@
       </div>
     </div>
   <!--THESIS EXHIBIT-->
-    <div class="thesis">
+    <div class="thesis-title">
       <h2>Thesis exhibit</h2>
+    </div>
+    <div class="thesis">
       <div class="video">
         <video src="./resources/videos/thesis.mp4" width="60%" controls></video>
         <h4>Reimagine Urban</h4>
         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec<br> consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget<br> magna laoreet, efficitur dolor consequat, tristique ligula."</p>
       </div>
-      <div class="left-menu">
+      <div class="right-menu">
         <div class="fisma">
           <img src="./resources/images/thesis-fisma.jpg" alt="smartphone">
-          <h4>Fisma: Design and Prototype</h4>
-          <p>Designer showcase of new<br> prototype product</p>
+          <div class="menu-text">
+            <h4>Fisma: Design and Prototype</h4>
+            <p>Designer showcase of new<br> prototype product</p>
+          </div>
         </div>
         <div class="now">
           <img src="./resources/images/thesis-now-and-then.jpg" alt="skyline">
-          <h4>Now and then</h4>
-          <p>Research study about New York</p>
+          <div class="menu-text">
+            <h4>Now and then</h4>
+            <p>Research study about New York</p>
+          </div>
         </div>
       </div>
     </div>
   <!--FOOTER-->
     <footer>
       <p>© 2016 Colmar Academy. All rights reserved.</p>
-      <p>Terms Privacy</p>
+      <p id="terms">Terms Privacy</p>
     </footer>
-
-
   </body>
